@@ -1,3 +1,62 @@
 body {
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Arial', sans-serif;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+       }
+       
+       body {
+           display: flex;
+           flex-direction: column;
+           height: 100vh;
+           font-family: 'Arial', sans-serif;
+           padding: 30px;
+           color: black;
+       }
+       
+       header {
+           background-color: grey;
+           padding: 30px;
+           text-align: center;
+       }
+       
+       main {
+           background-image: url('img/bg.jpg');
+           background-size: cover;        
+           background-color: darkslategrey;
+           padding: 30px;
+           flex-grow: 2;
+           overflow: auto;
+       }
+       
+       footer {
+           background-color: grey;
+           padding: 30px;
+           text-align: center;
+       }
+       
+       .message {
+           padding: 15px;
+           background-color: #dcdcdc;
+           border-radius: 20px;
+           margin-top: 20px;
+       }
+       .message-me {
+           text-align: right;
+           background-color: greenyellow;
+       }
+       .new-message {
+           padding: 10px;
+           display: flex;
+       }
+       .new-message input {
+           flex-grow: 1;
+           padding: 10px;
+       }
+       .new-message button {
+           width: 100px;
+       }
