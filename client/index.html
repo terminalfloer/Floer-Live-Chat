@@ -1,72 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Floer Chat Program</title>
-    <link rel="stylesheet" href="/style.css">
-    <script src="/script.js"></script>
-</head>
-<body>
-    <header>Floer Chat: 
-        <input type="text" placeholder="Benutzername" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Floer-Live-Chat</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Floer-Live-Chat</h1>
     </header>
-    <main>
-        <div class="message">
-            <b>Patrick</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message message-me">
-            <b>Tom</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message">
-            <b>Patrick</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message message-me">
-            <b>Tom</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message">
-            <b>Patrick</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message message-me">
-            <b>Tom</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message">
-            <b>Patrick</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message message-me">
-            <b>Tom</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message">
-            <b>Patrick</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message message-me">
-            <b>Tom</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message">
-            <b>Patrick</b>
-            <p>This is a message</p>
-        </div>
-        <div class="message message-me">
-            <b>Tom</b>
-            <p>This is a message</p>
-        </div>
+    <header2>
+      <p>Username: <input type="text" id="username" /></p>
+    </header2>
+    <main id="messages">
     </main>
-    <div class="new-message">
-        <input type="text" placeholder="Your message" />
-        <button>Send</button>
-    </div>
-    <footer>Copyright 2023</footer>
+    <footer>
+      <div id="container1" class="chat-container1">
+        <input type="text" id="message" />
+        <button onclick="sendMessage()">Send</button>
+       </div>
+    </footer>
+    <footer2>
+        <p>&copy; 2023 Floer-Live-Chat. Alle Rechte vorbehalten.</p>
+    </footer2>
   </body>
 </html>
-
